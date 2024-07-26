@@ -188,6 +188,13 @@ header nav #logo {
     padding: 15px;
 }
 /*----carousel----*/
+.container {
+    display: flex;
+    justify-content: center; /* Ajuste l'espacement entre les éléments */
+    align-items: center; /* Centre les éléments verticalement */
+    flex-direction: column;
+    margin: 0;
+}
 .image-container{
     height: 100vh;
     width: 100%;
@@ -267,7 +274,6 @@ button:hover {
     justify-content: center; 
     align-items: center; 
     position: relative;
-    max-width: 300px;
     text-align: center;
     padding: 20px;
     background: #d9d5c9;
@@ -291,6 +297,8 @@ button:hover {
 /*----------responsive-------------*/
 @media screen and (max-width: 1000px){
     /*--------menu--------*/
+   
+    
     #bars {
         position: block;
     }
@@ -320,8 +328,6 @@ button:hover {
         background: #d9d5c9;
         max-width: 300px;
         box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
-        
-        
     }
     .card p{
         font-size:14px;
@@ -408,7 +414,7 @@ button:hover {
     }
 
     .footer h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer-1,
@@ -480,9 +486,7 @@ button:hover {
     font-size: 12px;
     padding-top: 20px;
 }
-.footer-1 h5{
-    padding-top: 5px;
-}
+
 .footer-1 h5.paris{
     padding-top: 5px;
 }
