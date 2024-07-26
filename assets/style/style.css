@@ -262,6 +262,10 @@ button:hover {
     padding-bottom: 50px;
 }
 .card{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     position: relative;
     max-width: 300px;
     text-align: center;
@@ -316,7 +320,8 @@ button:hover {
         background: #d9d5c9;
         max-width: 300px;
         box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
-    
+        
+        
     }
     .card p{
         font-size:14px;
@@ -340,6 +345,7 @@ button:hover {
         position: relative;
         font-size: 17px;
         z-index: 1;
+        width: 100%;
     }
     
     .contact p{
